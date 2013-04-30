@@ -63,24 +63,4 @@ $(document).ready(function() {
 });
 
 
-// var PostIt = (function() {
-
-
-//   var html = '<div class="post-it""><div class="header"><a class="delete">X</a></div><p contenteditable="true" class="content">aersgoij</p></div>';
-
-//   var PostIt = function() {
-//     $(board).on('click', '.post-it', function(event){
-//       event.stopPropagation();
-//       $target = $(event.target);
-//       if ($target.is(".header")) {
-//         $(this).draggable({handle: ".header"});
-//       } else if ($target.is(".delete")) {
-//         $(this).remove();
-//       }
-//     });
-//   };
-
-//   PostIt.prototype
-//   return PostIt;
-// })();
 
